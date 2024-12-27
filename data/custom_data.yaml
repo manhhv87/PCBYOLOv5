@@ -1,0 +1,12 @@
+
+# relative paths to train / val / test 
+
+train: /content/pcb-yolo-en-clean-v2/images/train   # train images
+val: /content/pcb-yolo-en-clean-v2/images/val       # val images
+test: /content/pcb-yolo-en-clean-v2/images/test     # test images
+
+# number of classes
+nc: 6           
+
+# class names 
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
